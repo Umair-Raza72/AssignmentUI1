@@ -1,0 +1,753 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+    width:100%;
+    height:85px;
+    width:1280px;
+    margin: 0px auto;
+
+}
+nav{
+    padding: 0 50px;
+    width:100%;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{
+    background-color: white;
+    height:37px;
+    cursor: pointer;
+   
+}
+.left .div{
+    margin-left: 20px;
+    background-color: white;
+    background-image: none;
+    cursor: pointer;
+    border-right: 1px solid lightgray;
+}
+.left:hover{
+    transition:all 0.5s;
+
+}
+.right:hover{
+    transition:all 0.5s;
+    color: rgb(90, 139, 228);
+}
+
+.right{
+   
+    border-color: black;
+}
+.right div{
+    padding-right: 40px;
+    color:lightgray;  
+}
+.right a{
+    color:lightgray;
+}
+.right a:hover{
+    transition: 0.5s all;
+    color:blue;
+}
+.right button{
+    border:none;
+    border-right: 1px solid lightgray;
+    border-left: 1px solid  lightgray;
+    background-color: white;
+    height: 37px;
+    padding-right: 50px;
+    cursor: pointer;
+    display: block; 
+}
+.nav2{
+    padding-left: 50px;
+    font-weight: 540;
+    color: lightgray;
+    
+}
+.nav2 li{
+    
+    list-style: none;
+    padding-left:30px;
+    padding-right: 30px;
+    
+}
+.nav2 a{
+    color:black;
+    text-decoration: none;
+}
+.DropD1{
+    display:none;
+
+
+}
+.nav2 a:hover{
+    color:rgb(79, 117, 214);
+}
+
+.DD1 ul li:hover .DropD1{
+    display:block;
+    position: absolute;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.DD1 ul li:hover .DropD1 ul{
+    display: block;
+    margin: 10px;
+}
+a:hover{
+    transition: 0.5s all;
+}
+
+.Chk{
+    float:right;
+    color:rgb(66, 175, 211);
+    font-size: 32px;
+    line-height: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+.C1{
+    display:none;
+}
+.masthead{
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+
+}
+.masthead h1{
+    font-size: 50px;
+}
+.color-overlay{
+    margin-top: 150px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    line-height: 72px;
+    font-weight: 30;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-family:"Poppins", sans-serif;
+    
+}
+.welcome padding{
+    padding-bottom: 2rem;
+}
+.welcome{
+    width:75%;
+    margin:0 auto;
+    padding-top:2rem;
+}
+.display-4 {
+    color: gray;
+
+}
+.col-12{
+    color:lightgray;
+}
+.welcome hr{
+    border-top: 2px;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.sofas
+{
+    padding: 30px 30px;
+}
+.sofas h1{
+    font-size:34px;
+    font-weight:900;
+    padding-bottom: 5px;
+}
+.card{
+    margin:20px 10px;
+}
+.row img:hover{
+    cursor:pointer;
+    transition:0.5s all;
+}
+
+
+
+
+
+.sofas1
+{
+    padding: 30px 30px;
+}
+.sofas1 h5{
+    font-size:20px;
+    font-weight:100;
+    padding-bottom: 5px;
+    color: grey;
+}
+.sofas1 p{
+    color: gray;
+    font-family: 'Poppins',sans-serif;
+}
+.sofas1 .card{
+    margin:20px 10px;
+    border: none;
+    
+}
+.sofas1 .row img:hover{
+    cursor:pointer;
+    transition:0.5s all;
+}
+
+
+
+
+
+
+
+
+
+.Circular-Counter{
+    display: none;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+.links{
+   
+    margin-left: 20px;
+    
+   align-items: center;
+   font-weight: 200;
+   font-family: 'Poppins',sans-serif;
+
+}
+.links ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    text-align: center;
+    
+
+}
+.links ul li{
+    list-style: none;
+    display: inline;
+    
+}
+.links ul li a{
+    text-decoration: none;
+    padding: 16px;
+    color: rgb(148, 144, 144);
+}
+
+.links a:hover{
+    cursor: pointer;
+    color: blue;
+    transition:0.5s all;
+}
+
+
+
+
+.FixBack{
+    background: url("xn3.png") ;
+    background-size: cover;
+    border: 3px solid #fff;
+    padding:20px;
+   
+    height: 300px;
+    background-repeat: no-repeat;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+
+.float-child1 {
+    width: 48%;
+    float: left;
+    padding: 20px;
+    border: none;
+    background: white;
+    background-position: center;
+}  
+
+.float-child2 {
+    
+    width: 50%;
+    float: right;
+    padding: 20px;
+    border: none;
+    background: white;
+    background-position: center;
+}  
+
+.userImg{
+    display: flex;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(95, 92, 92);
+}
+
+.NameCEO{
+    font-size: medium;
+    display: flex;
+    font-family: 'Poppins',sans-serif;
+    margin-left: 100px;
+    color: rgb(95, 92, 92);
+}
+
+.deignation{
+    font-size: small;
+    display: flex;
+    font-family: 'Poppins',sans-serif;
+    margin-left: 100px;
+    color: rgb(95, 92, 92);
+}
+.img1{
+    border-radius:3px;
+    padding: 10px;
+
+}
+
+.footer{
+    background-color: #24262b;
+    padding: 20px 0px;
+    
+
+}
+
+footer ul{
+    list-style: none;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 33%;
+    padding: 0px 0px;
+    
+}
+.footer-col h4{
+    font-size: 18px;
+    color:lightgray;
+    font-family: 'Poppins',sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position:relative;
+    padding-left:20px;
+}
+.footer-col h4::before{
+    content: '';
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    background-color: none;
+    height: 2px;
+    box-sizing: border-box;
+    width: 70px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #847d7d;
+    text-decoration: none;
+    font-weight: 300;
+    color:#bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    padding-left: 20px;
+}
+
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left: 8px;
+
+}
+.footer-col .Social-links a{
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.footer-col .Social-links a:hover{
+    color:#24262b;
+    background-color: #ffffff;
+
+}
+
+.EmailInput{
+    width:200px;
+    padding:20px;
+    box-sizing: border-box;
+    
+}
+
+.signup-text-input{
+    padding:10px;
+    margin:10px 10px;
+    border-radius: 40px;
+    text-shadow: none;
+    border:0;
+
+}
+.Subscribe{
+    background-color: rgb(114, 114, 222);
+    padding:10px;
+    border-radius:40px;
+    border:none;
+}
+.Subscribe ul{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin:0;
+    padding: 0;
+
+
+}
+.Subscribe ul li{
+    list-style: none;
+    width:80px;
+    height: 80px;
+    background: black;
+
+}
+
+@media screen and (max-width:768px)
+{
+    .nav1{
+        width:100%;
+    }
+    .nav2 a{
+        color:blue;
+        text-decoration: none;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .masthead h1{
+        font-size: 35px;
+    }
+   
+
+}
+@media screen and (max-width:360px){
+    
+    .Chk{
+        display: block;
+    }
+    .nav1{
+        width:100%;
+    }
+    .nav2 a{
+        display: block;
+        position:fixed;
+        width:100%;
+        text-align: center;
+        color:blue;
+        text-decoration: none;
+
+        
+    }
+    .nav2 a:hover{
+        transition: 0.5s all;
+        color:red;
+
+    }
+    .masthead h1{
+        font-size: 25px;
+    }
+    .col-med-3{
+        width:100%;
+    }
+    
+.Circular-Counter{
+    
+    display: block;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.Circular-Counter .CContainer{ 
+    display: flex;
+    padding-left: 100px;
+    padding-right: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(41, 39, 39);
+    position: relative;
+    flex-wrap: wrap;
+    gap:40px;
+}
+.CContainer .CCard{
+    position: relative;
+    width: 220px;
+    height: 250px;
+    display: flex;
+    background: rgb(107, 107, 186);
+    justify-content: center;
+    align-items: center;
+    
+} 
+
+.CContainer .CCard .Happy-Clients{
+    position:relative;
+    width:150px;
+    height:150px;
+}
+.CContainer .CCard .Years-of-Experience{
+    position:relative;
+    width:150px;
+    height:150px;
+}
+.CContainer .CCard .Happy-Clients svg{
+    position: relative;
+    height:100%;
+    width:100%;
+    transform: rotate(270deg);
+
+}
+.CContainer .CCard .Years-of-Experience svg{
+    position: relative;
+    
+    height:100%;
+    width:100%;
+    transform: rotate(270deg);
+
+}
+
+.CContainer .CCard .Happy-Clients svg circle{
+    width:100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 4;
+    stroke: black;
+    transform: translate(5px,5px);
+}
+.CContainer .CCard .Years-of-Experience svg circle{
+    width:100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 4;
+    stroke: black;
+    transform: translate(5px,5px);
+}
+.CContainer .CCard .Years-of-Experience svg circle{
+    width:100%;
+    height: 100%;
+    fill: transparent;
+    stroke-width: 4;
+    stroke: black;
+    transform: translate(5px,5px);
+
+}
+.CContainer .CCard .Happy-Clients svg circle:nth-child(2){
+    stroke: var(--clr);
+    stroke-dasharray: 440;
+    stroke-dashoffset: calc(440 - (440 * var(--num))/100);
+}
+.dot{
+    position:absolute;
+    inset: 5px;
+    z-index: 10;
+    transform:rotate(calc(3.6deg * var(--num)));
+    animation: animateDot 2s linear forwards;
+}
+
+.dot::before{
+    content:'';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    background:var(--clr);
+}
+.number{
+    position:absolute;
+    inset:0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.number h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 200;
+    font-size: 1.5em;
+    background: rgb(79, 79, 221);
+}
+@keyframes animateDot {
+    0%{
+        transform:rotate(0deg);
+
+    }
+    100%{
+        transform:rotate(calc(3.6deg * var(--num)));
+    }
+}
+.FixBack{
+    justify-content:center;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.float-child1{
+    width:100%;
+    align-items: center;
+    float: none;
+    
+}
+.float-child2{
+display: none;
+}
+
+
+}
+
+
+@media screen and (max-width:393px){
+    .title{
+        padding-left: 0;
+        padding-right:0;
+    }
+    .Chk{
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav1{
+        padding-left: 0px;
+        margin-left: 0px;
+        width:70%;
+    }
+    .flex{
+        padding-left: 5px;
+    }
+    .nav2 a{
+        display: block;
+        position:fixed;
+        width:30%;
+        text-align: center;
+        color:blue;
+        text-decoration: none;
+
+        
+    }
+    .nav2 a:hover{
+        transition: 0.5s all;
+        color:red;
+
+    }
+    .footer-col{
+        width: 33%;
+        padding: 0px 0px;
+        
+    }
+    .footer-col{
+        width: 100%;
+        padding: 0px 0px;
+        
+    }
+}
+@media screen and (max-width:414px){
+    
+    .Chk{
+        display: block;
+    }
+    .nav1{
+        width:100%;
+    }
+    .nav2 a{
+        display: block;
+        position:fixed;
+        width:100%;
+        text-align: center;
+        color:blue;
+        text-decoration: none;
+
+        
+    }
+    .nav2 a:hover{
+        transition: 0.5s all;
+        color:red;
+
+    }
+    .footer-col{
+        width: 100%;
+        padding: 0px 0px;
+        
+    }
+}
+@media screen and (max-width:768){
+    .masthead{
+        min-height: 30vh;
+
+    }
+    .masthead h1{
+        font-size: calc(1.525rem+3.3vw);
+    }
+
+    
+    .Chk{
+        display: block;
+    }
+    .nav1{
+        width:100%;
+    }
+    .nav2 a{
+        display: block;
+        position:fixed;
+        width:100%;
+        text-align: center;
+        color:blue;
+        text-decoration: none;
+
+        
+    }
+    .nav2 a:hover{
+        transition: 0.5s all;
+        color:red;
+
+    }
+}
